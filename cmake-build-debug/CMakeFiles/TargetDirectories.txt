@@ -1,0 +1,3 @@
+/home/g/CLionProjects/histogram_generator/cmake-build-debug/CMakeFiles/histogram_generator.dir
+/home/g/CLionProjects/histogram_generator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/g/CLionProjects/histogram_generator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

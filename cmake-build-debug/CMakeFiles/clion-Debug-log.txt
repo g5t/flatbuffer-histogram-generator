@@ -1,0 +1,85 @@
+/home/g/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/g/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/ninja/linux/x64/ninja -DSTREAMING_DATA_TYPES=/home/g/Software/ess-dmsc/streaming-data-types -G Ninja -S /home/g/CLionProjects/histogram_generator -B /home/g/CLionProjects/histogram_generator/cmake-build-debug
+-- The C compiler identification is GNU 13.2.1
+-- The CXX compiler identification is GNU 13.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib64/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib64/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using mold linker
+-- Does /home/g/Software/ess-dmsc/streaming-data-types/schemas exist?
+-- Found streaming-data-types, using it.
+-- Using flatc compiler /usr/bin/flatc
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/6s4t_run_stop.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/ADAr_area_detector_array.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs.
+
+warning:
+  /home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:11: 16: warning: field names should be lowercase snake_case, got: secPastEpoch
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:16: 5: warning: field names should be lowercase snake_case, got: pName
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:18: 12: warning: field names should be lowercase snake_case, got: pDescription
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:20: 7: warning: field names should be lowercase snake_case, got: pSource
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:22: 8: warning: field names should be lowercase snake_case, got: dataType
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:24: 5: warning: field names should be lowercase snake_case, got: pData
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:31: 9: warning: field names should be lowercase snake_case, got: timeStamp
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:33: 7: warning: field names should be lowercase snake_case, got: epicsTS
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:37: 8: warning: field names should be lowercase snake_case, got: dataType
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:39: 5: warning: field names should be lowercase snake_case, got: pData
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/NDAr_NDArray_schema.fbs:41: 14: warning: field names should be lowercase snake_case, got: pAttributeList
+
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/al00_alarm.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/amo0_psi_sinq.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/answ_action_response.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/ba57_run_info.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/da00_dataarray.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/df12_det_spec_map.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/dtdb_adc_pulse_debug.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/ep00_epics_connection_info.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/ep01_epics_connection.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/ev42_events.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/ev43_events.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/ev44_events.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/f140_general.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/f141_epics_nt.fbs.
+
+warning:
+  /home/g/Software/ess-dmsc/streaming-data-types/schemas/f141_epics_nt.fbs:6: 17: warning: field names should be lowercase snake_case, got: secondsPastEpoch
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/f141_epics_nt.fbs:79: 10: warning: field names should be lowercase snake_case, got: timeStamp
+
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/f142_logdata.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/f143_structure.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/f144_logdata.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/fwdi_forwarder_internal.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/hs00_event_histogram.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/hs01_event_histogram.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/is84_isis_events.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/json_json.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/mo01_nmx.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/ns10_cache_entry.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/ns11_typed_cache_entry.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/pl72_run_start.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/rf5k_forwarder_config.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/se00_data.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/senv_data.fbs.
+
+warning:
+  /home/g/Software/ess-dmsc/streaming-data-types/schemas/senv_data.fbs:29: 8: warning: field names should be lowercase snake_case, got: Name
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/senv_data.fbs:30: 11: warning: field names should be lowercase snake_case, got: Channel
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/senv_data.fbs:31: 19: warning: field names should be lowercase snake_case, got: PacketTimestamp
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/senv_data.fbs:32: 13: warning: field names should be lowercase snake_case, got: TimeDelta
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/senv_data.fbs:34: 21: warning: field names should be lowercase snake_case, got: TimestampLocation
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/senv_data.fbs:37: 10: warning: field names should be lowercase snake_case, got: Values
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/senv_data.fbs:38: 14: warning: field names should be lowercase snake_case, got: Timestamps
+/home/g/Software/ess-dmsc/streaming-data-types/schemas/senv_data.fbs:39: 18: warning: field names should be lowercase snake_case, got: MessageCounter
+
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/tdct_timestamps.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/wrdn_finished_writing.fbs.
+-- Generating header file for /home/g/Software/ess-dmsc/streaming-data-types/schemas/x5f2_status.fbs.
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/g/CLionProjects/histogram_generator/cmake-build-debug
