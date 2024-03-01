@@ -39,4 +39,4 @@ else()
     find_package(streaming-data-types)
 endif()
 
-add_executable(histogram_generator main.cpp histogram_sender.cpp)
+add_executable(histogram_generator main.cpp)

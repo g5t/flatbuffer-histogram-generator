@@ -21,5 +21,5 @@ After configuring with CMake as above:
 ```cmd
 $ cmake --build build
 $ build/histogram_generator
-Now we could send a flatbuffer with 160408 bytes to topic some topic
+Now we could send a flatbuffer with 1143256 bytes to topic some topic
 ```
